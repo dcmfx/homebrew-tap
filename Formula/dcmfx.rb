@@ -16,20 +16,20 @@ class Dcmfx < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "#{URL_PREFIX}dcmfx-cli-v#{VERSION}-aarch64-apple-darwin.tar.gz"
+      url "#{URL_PREFIX}dcmfx-v#{VERSION}-aarch64-apple-darwin.tar.gz"
       sha256 SHAS.fetch("aarch64-apple-darwin")
     else
-      url "#{URL_PREFIX}dcmfx-cli-v#{VERSION}-x86_64-apple-darwin.tar.gz"
+      url "#{URL_PREFIX}dcmfx-v#{VERSION}-x86_64-apple-darwin.tar.gz"
       sha256 SHAS.fetch("x86_64-apple-darwin")
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "#{URL_PREFIX}dcmfx-cli-v#{VERSION}-aarch64-unknown-linux-musl.tar.gz"
+      url "#{URL_PREFIX}dcmfx-v#{VERSION}-aarch64-unknown-linux-musl.tar.gz"
       sha256 SHAS.fetch("aarch64-unknown-linux-musl")
     else
-      url "#{URL_PREFIX}dcmfx-cli-v#{VERSION}-x86_64-unknown-linux-musl.tar.gz"
+      url "#{URL_PREFIX}dcmfx-v#{VERSION}-x86_64-unknown-linux-musl.tar.gz"
       sha256 SHAS.fetch("x86_64-unknown-linux-musl")
     end
   end

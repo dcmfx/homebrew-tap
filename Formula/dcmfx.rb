@@ -1,11 +1,11 @@
-VERSION = "0.50.0"
+VERSION = "0.51.0"
 URL_PREFIX = "https://github.com/dcmfx/dcmfx/releases/download/v#{VERSION}/"
 
 SHAS = {
-  "aarch64-apple-darwin" => "1e67104cc6b10ce17a648d06a540b7adfe6ee416900912d034c092a9857ac9cb",
+  "aarch64-apple-darwin" => "cf66dfea48286f67f49466fb71dea3301d2996485a89d5b3f48643bd0a207ec7",
   "x86_64-apple-darwin" => "a2b1d0d9a284acf0b9abd0410978a3330aca0a8ae395729c2c70b14dcf1d8831",
-  "aarch64-unknown-linux-musl" => "95c5264501c15d731396e06f582177bc0b4bbc38032f3f8db74fe2d2a7cca1a5",
-  "x86_64-unknown-linux-musl" => "edcaa9421a353712a9527d63fe42b93fbac1991b4f6ea2581f27b5a841dfaff7"
+  "aarch64-unknown-linux-musl" => "72b6452554f45c5de4fbfa4c38e59e6a54b65a999a9760b26fed64c89ed5d928",
+  "x86_64-unknown-linux-musl" => "4feb4927fa379591fca36c2782aecb054dedda1b22c2c4f6b11ab9370f42adf6"
 }
 
 class Dcmfx < Formula
